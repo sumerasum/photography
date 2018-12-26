@@ -7,6 +7,7 @@
 	<title>Pixel Pravaha</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
+  	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content=""/>
@@ -35,7 +36,11 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
-	
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
 	</head>
 	<body>
 	
@@ -44,27 +49,22 @@
 			<!-- Mobile Toggle Menu Button -->
 			<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 			<div id="fh5co-logo">
-				<a href="index.html"><img src="images/smiley.png" onerror=this.src="images/smiley.png" style="width:42px;height:42px;border:0">PIXEL PRAVAHA<span>.</span>         	</a>
+				<a href="index.html"><img src="images/smiley.png" alt="Loading!!!" onerror=this.src="images/smiley.png" style="width:42px;height:42px;border:0">PIXEL PRAVAHA<span>.</span>
 			</div>
 			<nav id="fh5co-main-nav">
 				<ul>
-					<li><a href="#" data-nav-section="home">Home</a></li>
-					<!--<li><a href="#" data-nav-section="portfolio">Portfolio</a></li>-->
-					<!-- mycode-->
-			
+					<li><a href="index.html" class="transition" data-nav-section="home">Home</a></li>
 					<li><div class="dropdown">
 						<a href="#" class="dropbtn" data-nav-section="portfolio">Portfolio</a>
   						<div class="dropdown-content">
 						<a href="wedding.html" class="transition">Wedding Collection</a>
-						<a href="Maternity.html" class="transition">Maternity Hits</a>
-						<a href="Baby.html" class="transition">Baby Shoot</a>
+						<a href="Maternity.html">Maternity Hits</a>
+						<a href="Baby.html">Baby Shoot</a>
 						</div>
 						</div>
 					</li>
-				
-					<!-- mycode-->
-					<li><a href="#" data-nav-section="about">About</a></li>
-					<li><a href="#" data-nav-section="contact">Contact</a></li>
+					<li><a href="index.html" class="transition" data-nav-section="about">About</a></li>
+					<li><a href="index.html" class="transition" data-nav-section="contact">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -79,10 +79,10 @@
 				<div class="fh5co-text">
 					<div class="container">
 						<div class="row text-center">
-							<h1 class="animate-box">We love to tell your story</h1>
+							<h1 class="animate-box">Baby Shoots</h1>
 							<div class="fh5co-go animate-box">
 								<a href="#" class="js-fh5co-next">
-									See Portfolio
+									View Images
 									<span><i class="icon-arrow-down2"></i></span>
 								</a>
 								
@@ -91,10 +91,7 @@
 					</div>
 				</div>
 			  	<ul class="slides">
-			   	<li style="background-image: url(images/Colorful.jpg);" data-stellar-background-ratio="0.5"></li>
-			   	<li style="background-image: url(images/Colorful2.jpg);" data-stellar-background-ratio="0.5"></li>
-			   	<li style="background-image: url(images/Colorful3.jpg);" data-stellar-background-ratio="0.5"></li>
-				<li style="background-image: url(images/Colorful4.jpg);" data-stellar-background-ratio="0.5"></li>
+			   	<li style="background-image: url(images/Baby/baby1.jpg);" data-stellar-background-ratio="0.5"></li>
 			  	</ul>
 
 			</div>
@@ -111,45 +108,45 @@
 				<div class="row">
 					<div class="col-md-4 col-sm-4 col-xs-6 col-xxs-12 animate-box">
 						<div class="img-grid">
-							<img src="images/wedding/wedding.jpg" onerror=this.src="images/smiley.png" class="img-responsive">
-							<a href="1weddinggallery.html" class="transition">
-								<div>
-									<span class="fh5co-meta">12 images</span>
-									<h2 class="fh5co-title">Rob &amp; Jean Wedding</h2>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4 col-xs-6 col-xxs-12 animate-box">
-						<div class="img-grid">
-							<img src="images/Baby/baby2.jpg" onerror=this.src="images/smiley.png" class="img-responsive">
+							<img src="images/wedding/1/wedding1.jpg" onerror=this.src="images/smiley.png" class="img-responsive">
 							<a href="1babyshoot.html" class="transition">
 								<div>
-									<span class="fh5co-meta">10 images</span>
-									<h2 class="fh5co-title">Ruby baby</h2>
+									<span class="fh5co-meta">5 images</span>
+									<h2 class="fh5co-title">Baby Ruby</h2>
 								</div>
 							</a>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4 col-xs-6 col-xxs-12 animate-box">
 						<div class="img-grid">
-							<img src="images/Maternity/2maternity.jpg" onerror=this.src="images/smiley.png" class="img-responsive">
-							<a href="1mommyshoot.html" class="transition">
+							<img src="images/wedding/1/wedding2.jpg" onerror=this.src="images/smiley.png" class="img-responsive">
+							<a href="2babyshoot.html" class="transition">
 								<div>
-									<span class="fh5co-meta">5 images</span>
-									<h2 class="fh5co-title">Jean's shoot</h2>
+									<span class="fh5co-meta">12 images</span>
+									<h2 class="fh5co-title">Baby Shon</h2>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-6 col-xxs-12 animate-box">
+						<div class="img-grid">
+							<img src="images/wedding/1/wedding3.jpg" onerror=this.src="images/smiley.png" class="img-responsive">
+							<a href="3babyshoot.html" class="transition">
+								<div>
+									<span class="fh5co-meta">7 images</span>
+									<h2 class="fh5co-title">Baby Riya</h2>
 								</div>
 							</a>
 						</div>
 					</div>
 
-				<!--	<div class="col-md-4 col-sm-4 col-xs-6 col-xxs-12 animate-box">
+				<!--<div class="col-md-4 col-sm-4 col-xs-6 col-xxs-12 animate-box">
 						<div class="img-grid">
 							<img src="images/pic_4.jpg" onerror=this.src="images/smiley.png" class="img-responsive">
 							<a href="portfolio-single.html" class="transition">
 								<div>
 									<span class="fh5co-meta">15 images</span>
-									<h2 class="fh5co-title">Rob &amp; Jean Wedding</h2>
+									<h2 class="fh5co-title">4 Wedding</h2>
 								</div>
 							</a>
 						</div>
@@ -249,86 +246,12 @@
 			</div>
 		</div>
 
-		<div id="fh5co-about" data-section="about">
-			<div class="container">
-				<div class="row r-pb">
-					<div class="col-md-8 col-md-offset-2 text-center section-heading animate-box">
-						<h2 class="fh5co-section-title">About</h2>
-						<p class="fh5co-lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6 animate-box">
-						<div class="fh5co-text with-plus">
-							<h2>Srikanth Daaldur</h2>
-							<span class="fh5co-meta">Photographer, Video Editor</span>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-						</div>
-					</div>
-					<div class="col-md-6 animate-box">
-						<div class="fh5co-text">
-							<h2>XYZ</h2>
-							<span class="fh5co-meta">Photographer, Copy writer</span>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-		
-
-		<div id="fh5co-contact" data-section="contact">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center section-heading">
-						<h2 class="fh5co-section-title animate-box">Contact</h2>
-						<p class="fh5co-lead animate-box">We'd love to talk about your story.</p>
-						<p class="animate-box">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						<p class="animate-box"><a href="Contact.html" target="_blank" class="btn btn-primary btn-lg">Get in touch</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div id="fh5co-testimony" style="background-image: url(images/slide_3.jpg);" data-stellar-background-ratio="0.5">
-			<div class="fh5co-overlay"></div>
-			<div class="container">
-				<div class="row">
-					<div class="flexslider animate-box">
-							<ul class="slides">
-								<li>
-									<blockquote>
-										<p>&ldquo;I think design would be better if designers were much more skeptical about its applications. If you believe in the potency of your craft, where you choose to dole it out is not something to take lightly.&rdquo; <cite>&mdash; Frank Chimero</cite></p>
-									</blockquote>
-								</li>
-								<li>
-									<blockquote>
-										<p>&ldquo;Design must be functional and functionality must be translated into visual aesthetics, without any reliance on gimmicks that have to be explained.&rdquo; <cite>&mdash; Ferdinand A. Porsche</cite></p>
-									</blockquote>
-								</li>
-								<li>
-									<blockquote>
-										<p>&ldquo;Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.&rdquo; <cite>&mdash; Steve Jobs</cite></p>
-									</blockquote>
-								</li>
-								
-								
-							</ul>
-						</div>
-
-				</div>
-			</div>
-		</div>
-
 		<div id="fh5co-footer">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-sm-6 animate-box">
 						<div class="fh5co-footer-widget">
 							<p>&copy; Pixel Pravaha. All Rights Reserved.</p>
-							
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 animate-box">
@@ -348,9 +271,6 @@
 								</li>
 								<li>
 									<a href="#"><i class="icon-google"></i></a>
-								</li>
-								<li>
-									<a href="#"><i class="icon-vimeo"></i></a>
 								</li>
 							</ul>
 						<div class="fh5co-footer-widget">

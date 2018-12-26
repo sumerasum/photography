@@ -545,7 +545,7 @@ p {
 #fh5co-contact,
 #fh5co-testimony,
 #fh5co-content {
-  padding: 7em 0;
+  padding: 3em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-portfolio,
@@ -839,7 +839,7 @@ p {
 }
 
 .section-heading .fh5co-section-title {
-  font-size: 11px;
+  font-size: 25px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #41454f;
